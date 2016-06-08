@@ -1,2 +1,4 @@
 # log-note
-simple way to logging with timestamp
+## simple way to logging with timestamp
+
+coming soon!
