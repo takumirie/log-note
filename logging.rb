@@ -1,4 +1,11 @@
 require 'date'
+#this file strongly need to be refine!
+#I just wrote
+#
+#so I'll fix this program tomorrow
+
+
+
 
 # p @toSaveFolder
 # p @toSaveFormat
