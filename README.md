@@ -1,4 +1,5 @@
 # log-note
+##### this is what I needed, then i developed.
 simple way to logging with timestamp in command-line
 
 ## Ruby version is now available!
