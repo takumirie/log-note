@@ -1,18 +1,15 @@
-=begin
-
-instruction.
-
-Please use this program with 'ruby'! not 'pry' or 'irb'.
-
-Developed by Takumi irie.
-https://github.com/takumirie.
-
-Please make sure this program is my practice of studying Ruby.
-If you have a time? give me a advice or comment!
-
-Feel free to edit, and share.
-
-=end
+# ver 1.0.0
+# instruction.
+#
+# Please use this program with 'ruby'! not 'pry' or 'irb'.
+# 
+# Developed by Takumi irie.
+# https://github.com/takumirie.
+# 
+# Please make sure this program is my practice of studying Ruby.
+# If you have a time? give me a advice or comment!
+# 
+# Feel free to edit, and share.
 
 require 'date'
 
