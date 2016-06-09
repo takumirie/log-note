@@ -1,6 +1,5 @@
 # log-note
 simple way to logging with timestamp in command-line
-this program is now coding! so you shouldn't use this at this moment!
 
 ## Ruby version is now available!
 
