@@ -1,13 +1,28 @@
+=begin
+
+instruction.
+
+Please use this program with 'ruby'! not 'pry' or 'irb'.
+
+Developed by Takumi irie.
+https://github.com/takumirie.
+
+Please make sure this program is my practice of studying Ruby.
+If you have a time? give me a advice or comment!
+
+Feel free to edit, and share.
+
+=end
+
 require 'date'
 
 p "enter the file name. (e,g. idea1.md. or blank to be 'date')(automatically, make new one or open)"
 
 @toSaveFile = gets.chomp
-
 if @toSaveFile.empty?
-	p "error" ;exit(0)
+	p "error"
+	exit(0)
 end
-# p "error" && exit(0) if @toSaveFile == ''
 
 def theTime
 	getNow = Time.now.strftime("%H:%M %b %d, %Y")
@@ -25,17 +40,9 @@ def userInput
 	EOS
 end
 
-#this part is now coding
-fileBase = <<~EOS
-# Started at **#{theTime}**
-------
-------
-<br />
-EOS
-# end
-
 toSaveLines =  userInput
 File.open(@toSaveFile, "a") do |file|
 	file.puts toSaveLines
 end
-p 'saved'
+
+p 'saved.'
